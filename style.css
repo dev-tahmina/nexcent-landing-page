@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  @apply font-[Inter] font-semibold text-4xl text-[#4D4D4D] mb-4;
+}
+.pera {
+  @apply font-[inter] font-normal text-sm text-[#717171] mb-8;
+}
+.td {
+  @apply font-[Inter] font-normal text-sm text-[#F5F7FA] mb-3;
+}
+.th {
+  @apply font-[Inter] font-semibold text-xl text-[#ffffff] mb-6 text-left;
+}
